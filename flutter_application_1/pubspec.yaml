@@ -1,0 +1,19 @@
+name: suraksha_prototype
+description: Prototype Tourist Safety App
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.2.5
+  shared_preferences: ^2.1.1
+  flutter_spinkit: ^5.1.0
+
+# add assets if needed
+flutter:
+  uses-material-design: true
